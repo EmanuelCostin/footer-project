@@ -1,0 +1,69 @@
+.carousel {
+    position: relative;
+    width: 374px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .numbers-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .numbers {
+    display: flex;
+  }
+  
+  .number {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #FFF;
+    text-align: center;
+    line-height: 30px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
+  .number:hover {
+    background-color: #FF6B08;
+  }
+  
+  .number.active {
+    background-color: #FF6B08;
+    color: #FFF;
+  }
+  
+
+  p {
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 77px;
+    padding-top: 50px;
+    text-align: center;
+  }
