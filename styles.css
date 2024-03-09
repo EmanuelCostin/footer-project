@@ -20,7 +20,6 @@
   .number {
     width: 40px;
     height: 40px;
-    border: 1px solid #000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,19 +43,31 @@
   
   .left-arrow {
     left: 10px;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
   }
   
   .right-arrow {
     right: 10px;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
   }
   
   .number:hover {
     background-color: #FF6B08;
+    border-radius: 5px;
   }
   
   .number.active {
     background-color: #FF6B08;
     color: #FFF;
+    border-radius: 5px;
   }
   
 
